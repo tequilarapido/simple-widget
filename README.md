@@ -9,7 +9,7 @@
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/tequilarapido/simple-widget/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/tequilarapido/simple-widget/?branch=master)
 
 <p align="center">
-    <img src="" />
+    <img src="http://s11.postimg.org/ccg4cxb37/simple_wi.jpg" />
 </p>
 
 `tequilarapido/simple-widget` can help you easily split your pages into smaller chunks / widgets, that can be used elsewhere in your project.  
