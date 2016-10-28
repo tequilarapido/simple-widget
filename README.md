@@ -3,8 +3,8 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tequilarapido/simple-widget.svg?style=flat-square)](https://packagist.org/packages/tequilarapido/simple-widget)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/tequilarapido/simple-widget/master.svg?style=flat-square)](https://travis-ci.org/tequilarapido/simple-widget)
-[![StyleCI](https://styleci.io/repos/$STYLECI_ID$/shield)](https://styleci.io/repos/$STYLECI_ID$)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/$SENSIOLABS_ID$.svg?style=flat-square)](https://insight.sensiolabs.com/projects/$SENSIOLABS_ID$)
+[![StyleCI](https://styleci.io/repos/72218172/shield)](https://styleci.io/repos/72218172)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/4bd9fa3d-6187-44d5-a3e6-c02c4c36e28e.svg?style=flat-square)](https://insight.sensiolabs.com/projects/4bd9fa3d-6187-44d5-a3e6-c02c4c36e28e)
 [![Quality Score](https://img.shields.io/scrutinizer/g/tequilarapido/simple-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/tequilarapido/simple-widget)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/tequilarapido/simple-widget/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/tequilarapido/simple-widget/?branch=master)
 
