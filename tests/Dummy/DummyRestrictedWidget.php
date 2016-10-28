@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Tequilarapido\SimpleWidget\Test\Dummy;
 
 use Tequilarapido\SimpleWidget\Widget;

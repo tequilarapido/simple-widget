@@ -24,5 +24,4 @@ interface Widget
      * @return mixed
      */
     public function render();
-
 }
