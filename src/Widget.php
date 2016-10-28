@@ -36,7 +36,7 @@ abstract class Widget implements WidgetContract
      */
     public function render()
     {
-        if (!$this->authorize()) {
+        if (! $this->authorize()) {
             return $this->notAuthorizedContent();
         }
 
@@ -51,5 +51,4 @@ abstract class Widget implements WidgetContract
      * @return mixed
      */
     abstract protected function content();
-
 }

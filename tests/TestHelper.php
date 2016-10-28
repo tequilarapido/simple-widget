@@ -19,17 +19,17 @@ class TestHelper
 
     public function viewPaths()
     {
-        return [$this->tempPath() . '/views'];
+        return [$this->tempPath().'/views'];
     }
 
     public function fixturesPath($path)
     {
-        return __DIR__ . '/fixtures' . (empty($path) ? '' : '/' . $path);
+        return __DIR__.'/fixtures'.(empty($path) ? '' : '/'.$path);
     }
 
     public function tempPath()
     {
-        return __DIR__ . '/temp';
+        return __DIR__.'/temp';
     }
 
     public function stripWhiteSpacesFromHtml($html)

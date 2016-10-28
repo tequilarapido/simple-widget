@@ -17,7 +17,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getEnvironmentSetUp($app)
     {
         // Load views from testing folder
-        $app['config']->set('view.paths',(new TestHelper($app))->viewPaths());
+        $app['config']->set('view.paths', (new TestHelper($app))->viewPaths());
     }
 
     public function tearDown()
