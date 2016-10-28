@@ -3,9 +3,8 @@
 namespace Tequilarapido\SimpleWidget;
 
 use Illuminate\View\View;
-use Tequilarapido\SimpleWidget\Contract\Widget as WidgetContract;
 
-abstract class Widget implements WidgetContract
+abstract class Widget implements WidgetInterface
 {
     /**
      * Whether or not user is authorized to view widget content.

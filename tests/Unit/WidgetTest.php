@@ -2,17 +2,17 @@
 
 namespace Tequilarapido\SimpleWidget\Test;
 
-use Tequilarapido\SimpleWidget\Contract\Widget as WidgetContact;
 use Tequilarapido\SimpleWidget\Test\Dummy\DummyContentWidget;
 use Tequilarapido\SimpleWidget\Test\Dummy\DummyRestrictedWidget;
 use Tequilarapido\SimpleWidget\Test\Dummy\DummyViewWidget;
+use Tequilarapido\SimpleWidget\WidgetInterface;
 
 class WidgetTest extends TestCase
 {
     /** @test */
     public function it_respects_contract()
     {
-        $this->assertInstanceOf(WidgetContact::class, new DummyContentWidget);
+        $this->assertInstanceOf(WidgetInterface::class, new DummyContentWidget);
     }
 
     /** @test */

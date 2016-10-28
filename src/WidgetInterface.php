@@ -1,8 +1,8 @@
 <?php
 
-namespace Tequilarapido\SimpleWidget\Contract;
+namespace Tequilarapido\SimpleWidget;
 
-interface Widget
+interface WidgetInterface
 {
     /**
      * Whether or not user is authorized to view widget content.
