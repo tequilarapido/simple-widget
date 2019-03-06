@@ -7,7 +7,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     /** @var TestHelper */
     protected $helper;
 
-    public function setUp()
+    public function setUp() : void
     {
         parent::setUp();
 
@@ -20,7 +20,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
         $app['config']->set('view.paths', (new TestHelper($app))->viewPaths());
     }
 
-    public function tearDown()
+    public function tearDown() : void
     {
         parent::tearDown();
 
