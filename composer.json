@@ -1,36 +1,41 @@
 {
-    "name": "tequilarapido/simple-widget",
-    "description": "Simple widgets system for Laravel",
-    "homepage": "https://github.com/tequilarapido/simple-widget",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nassif Bourguig",
-            "email": "nbourguig@gmail.com",
-            "homepage": "https://github.com/nbourguig",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "laravel/framework": "^5.8"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^3.8"
-    },
-    "autoload": {
-        "psr-4": {
-            "Tequilarapido\\SimpleWidget\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tequilarapido\\SimpleWidget\\Test\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
-    "config": {
-        "sort-packages": true
+  "name": "tequilarapido/simple-widget",
+  "description": "Simple widgets system for Laravel",
+  "homepage": "https://github.com/tequilarapido/simple-widget",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nassif Bourguig",
+      "email": "nbourguig@gmail.com",
+      "homepage": "https://github.com/nbourguig",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "laravel/framework": "^5.8"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tequilarapido\\SimpleWidget\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tequilarapido\\SimpleWidget\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.1-dev"
+    }
+  }
 }
